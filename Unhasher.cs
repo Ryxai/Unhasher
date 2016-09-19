@@ -27,7 +27,7 @@ namespace Unhasher
         /// <param name="terminalState">The final state obtained by hashing</param>
         /// <param name="initialState">The initial state of the hashing algorithm</param>
         /// <param name="maxStringLength">The maximum length cap for the generated strings</param>
-        /// <returns></returns>
+        /// <returns>A list of the possible solution strings</returns>
         public static IReadOnlyList<string> ReverseHash(
             IReadOnlyList<string> symbols,
             Func<string, TState, TState> reversedHashFunction,
