@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 namespace Unhasher 
 {
     /// <summary>
-    /// This class provides an optimal algorithm for reversing hash algorithms. That is: given the hash, it determines the possible input strings. 
+    /// This class provides an generically optimal algorithm for reversing hash algorithms. That is: given the hash, it determines the possible input strings. 
     /// For example given a hashing algorithm: (3 * sum + (a = 1, b =2)) * 5 we can determine that the hash 1205 results from the string 'aaa'.
     /// Furthermore if there are any collisions, the algorithm will find all of them, while still remaining optimal search
     /// </summary>
